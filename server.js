@@ -13,6 +13,10 @@ app.get('/ruta2', (req, res) => {
     res.send('Ruta 2 creada. ')
 })
 
+app.get('/ruta3', (req, res) => {
+    res.send('Ruta 3 creada. ')
+})
+
 
 const PORT = process.env.PORT || 8080
 
